@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva,sans-serif;
+  background-color: #d4d4d4;
+}
+article {
+  width: 1000px;
+  margin: 40px auto;
+  padding: 20px 150px 60px;
+  background-color: #f5f6f9;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+}
+
+#main {
+  border: 2px solid #ddd;
+}
+h1,h2,h3 {
+  font-family: 'Ceture Gotik', monospace;
+}
+#logo {
+  float: left;
+ 
+}
+#logo img {
+  width: 80px;
+}
+
+#slogan {
+  float:right;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: right;
+  color: #909090;
+  width: 30%
+}
+
+.clearfix::before, .clearfix::after {
+  content: '';
+  display: block;
+}
+.clearfix::after {
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+.block {
+  padding: 30px;
+}
+
+.block:nth-child(odd) {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ddd;
+  border-top: 2px solid #ddd;
+
+}
+#main {
+  border-right: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+}
+
+.block::before, .clearfix::after {
+  content: '';
+  display: block;
+}
+.block::after {
+  clear: both;
+}
+
+.block img {
+  border: 2px solid #ddd;
+  border-radius: 50%
+}
+.block:first-child, .block:last-child {
+  text-align: center;
+}
+header {
+  padding: 30px 15px;
+}
