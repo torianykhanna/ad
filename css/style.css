@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Verdana, Geneva,sans-serif;
   background-color: #d4d4d4;
 }
+
 article {
   width: 1000px;
   margin: 40px auto;
@@ -16,13 +18,15 @@ article {
 #main {
   border: 2px solid #ddd;
 }
+
 h1,h2,h3 {
   font-family: 'Ceture Gotik', monospace;
 }
+
 #logo {
-  float: left;
- 
+  float: left; 
 }
+
 #logo img {
   width: 80px;
 }
@@ -37,10 +41,12 @@ h1,h2,h3 {
   width: 30%
 }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before, 
+.clearfix::after {
   content: '';
   display: block;
 }
+
 .clearfix::after {
   clear: both;
 }
@@ -54,6 +60,7 @@ h1,h2,h3 {
   float: right;
   margin-left: 15px;
 }
+
 .block {
   padding: 30px;
 }
@@ -62,17 +69,19 @@ h1,h2,h3 {
   background-color: #f8f8f8;
   border-bottom: 2px solid #ddd;
   border-top: 2px solid #ddd;
-
 }
+
 #main {
   border-right: 2px solid #ddd;
   border-left: 2px solid #ddd;
 }
 
-.block::before, .clearfix::after {
+.block::before, 
+.clearfix::after {
   content: '';
   display: block;
 }
+
 .block::after {
   clear: both;
 }
@@ -81,9 +90,11 @@ h1,h2,h3 {
   border: 2px solid #ddd;
   border-radius: 50%
 }
+
 .block:first-child, .block:last-child {
   text-align: center;
 }
+
 header {
   padding: 30px 15px;
 }
